@@ -1,0 +1,15 @@
+plugin:
+    name: Philter
+    description: 'openpolytechnic.philter::lang.plugin.description'
+    author: HarryFurnish
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Images
+        url: whitecliffe/philter/images
+        icon: icon-photo
+    main-menu-item2:
+        label: Tags
+        url: whitecliffe/philter/tags
+        icon: icon-quote-left

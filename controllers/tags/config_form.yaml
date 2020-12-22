@@ -1,0 +1,10 @@
+name: Tags
+form: $/whitecliffe/philter/models/tag/fields.yaml
+modelClass: Whitecliffe\Philter\Models\Tag
+defaultRedirect: whitecliffe/philter/tags
+create:
+    redirect: 'whitecliffe/philter/tags/update/:id'
+    redirectClose: whitecliffe/philter/tags
+update:
+    redirect: whitecliffe/philter/tags
+    redirectClose: whitecliffe/philter/tags

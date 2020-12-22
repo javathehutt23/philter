@@ -1,0 +1,10 @@
+name: Images
+form: $/whitecliffe/philter/models/image/fields.yaml
+modelClass: Whitecliffe\Philter\Models\Image
+defaultRedirect: whitecliffe/philter/images
+create:
+    redirect: 'whitecliffe/philter/images/update/:id'
+    redirectClose: whitecliffe/philter/images
+update:
+    redirect: whitecliffe/philter/images
+    redirectClose: whitecliffe/philter/images
